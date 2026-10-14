@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tim Profil — 3 CV</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- Basic description for the page -->
+  <meta name="description" content="Satu halaman profil berisi tiga CV: Raya Kamila, Adib Heliansyah, dan Sinta Nurhandayani.">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container">
+      <div class="brand">Tim Profil</div>
+      <nav>
+        <a href="#person1">Raya Kamila</a>
+        <a href="#person2">Adib Heliansyah</a>
+        <a href="#person3">Sinta Nurhandayani</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero / Intro -->
+  <section class="hero">
+    <div class="container">
+      <h1>Profil Satu Halaman — Tim</h1>
+      <p class="lead">Tiga profil diurutkan sesuai CV: cv 1, cv 2, cv 3. Informasi diambil persis dari CV masing-masing.</p>
+    </div>
+  </section>
+
+  <main class="container main-content">
+    <!-- PROFILE 1 - cv 1 (Raya Kamila) -->
+    <section id="person1" class="profile" data-accent="indigo">
+      <header class="profile-header">
+        <div class="photo-wrap">
+          <!-- Photo path required: ./foto/foto1.jpg -->
+          <img src="./foto/foto1.jpg" alt="Raya Kamila" class="photo" data-name="Raya Kamila Cb Winata">
+        </div>
+        <div class="profile-meta">
+          <h2 class="name">Raya Kamila Cb Winata</h2>
+          <div class="role">Mahasiswi / Pelamar (sesuaikan jika perlu)</div>
+          <p class="summary">Ringkasan: (diambil dari isi CV) -- riwayat pendidikan dan organisasi aktif, pengalaman lomba, dan pengalaman kerja tercantum di bawah.</p>
+
+          <!-- Contact buttons: hanya email / telepon kalau ada -->
+          <div class="contact-actions">
+            <a class="btn" href="mailto:rayacbwinata@gmail.com">Email</a>
+            <a class="btn outline" href="tel:08888794599">Telepon</a>
+          </div>
+        </div>
+      </header>
+
+      <div class="profile-body">
+        <!-- Data Pribadi -->
+        <section class="card">
+          <h3 class="section-title">Data Pribadi</h3>
+          <ul class="info-list">
+            <li><strong>Nama:</strong> Raya Kamila Cb Winata</li>
+            <li><strong>Tempat, Tanggal Lahir:</strong> Jakarta, 14 Juni 2006</li>
+            <li><strong>Jenis Kelamin:</strong> Perempuan</li>
+            <li><strong>Agama:</strong> Islam</li>
+            <li><strong>Alamat:</strong> Jln. Moh Aseni rt007/003</li>
+            <li><strong>Nomor Telepon:</strong> 08888794599</li>
+            <li><strong>Email:</strong> rayacbwinata@gmail.com</li>
+          </ul>
+        </section>
+
+        <!-- Pendidikan (timeline) -->
+        <section class="card timeline">
+          <h3 class="section-title">Pendidikan</h3>
+          <ol class="timeline-list">
+            <li><span class="time">2012–2013</span><span class="item">TK Miftahul Mu'in</span></li>
+            <li><span class="time">2013–2019</span><span class="item">SDN 012 Pagi</span></li>
+            <li><span class="time">2019–2022</span><span class="item">MTsN 8 Jakarta Barat</span></li>
+            <li><span class="time">2022–2025</span><span class="item">MAN 12 Jakarta Barat</span></li>
+            <li><span class="time">2025–Sekarang</span><span class="item">UIN Syarif Hidayatullah Jakarta</span></li>
+          </ol>
+        </section>
+
+        <!-- Organisasi -->
+        <section class="card">
+          <h3 class="section-title">Pengalaman Organisasi</h3>
+          <ul>
+            <li>Anggota aktif PMR SDN 012 Pagi</li>
+            <li>Anggota aktif DrumBand SDN 012 Pagi</li>
+            <li>Anggota aktif PMR MTsN 8 Jakarta Barat</li>
+            <li>Anggota aktif Pecak Silat MTsN 8 Jakarta Barat</li>
+            <li>Anggota aktif Volli MAN 12 Jakarta</li>
+            <li>Anggota aktif Paskibra MAN 12 Jakarta</li>
+            <li>Anggota aktif Hadroh MAN 12</li>
+            <li>Anggota aktif Saman MAN 12</li>
+          </ul>
+        </section>
+
+        <!-- Pengalaman Lomba -->
+        <section class="card">
+          <h3 class="section-title">Pengalaman Lomba</h3>
+          <ul>
+            <li>Lomba "Let's Play With Nyam Nyam"</li>
+            <li>Lomba Hadroh JMC</li>
+            <li>Lomba MTQ</li>
+            <li>Lomba Paskibra</li>
+          </ul>
+          <!-- Tampilan tahun yang muncul di CV (ditampilkan persis seperti di CV) -->
+          <p class="muted">Tahun yang tercantum pada CV: 2021–2022, 2020–2021</p>
+        </section>
+
+        <!-- Pengalaman Kerja -->
+        <section class="card">
+          <h3 class="section-title">Pengalaman Kerja</h3>
+          <ul>
+            <li>Karyawan Anscollection</li>
+          </ul>
+        </section>
+      </div>
+    </section>
+
+    <!-- PROFILE 2 - cv 2 (Adib Heliansyah) -->
+    <section id="person2" class="profile" data-accent="teal">
+      <header class="profile-header">
+        <div class="photo-wrap">
+          <!-- Photo path required: ./foto/foto2.jpg -->
+          <img src="./foto/foto2.jpg" alt="Adib Heliansyah" class="photo" data-name="Adib Heliansyah">
+        </div>
+        <div class="profile-meta">
+          <h2 class="name">Adib Heliansyah</h2>
+          <div class="role">Sarjana (Manajemen Pendidikan) — sedang berjalan (UIN Syarif Hidayatullah)</div>
+          <p class="summary">Saya memiliki pengalaman 3 tahun berorganisasi yang bagus dan memiliki banyak pengalaman yang mampu mengimprove diri saya sebagai komunikator yang baik dan ramah. Berpengalaman dengan keahlian dalam kepemimpinan dan manajemen tim.</p>
+
+          <div class="contact-actions">
+            <a class="btn" href="mailto:adibheliansyah@gmail.com">Email</a>
+            <a class="btn outline" href="tel:+6285715575603">Telepon</a>
+          </div>
+        </div>
+      </header>
+
+      <div class="profile-body">
+        <!-- Contact & Languages (from left column in CV) -->
+        <section class="card">
+          <h3 class="section-title">Kontak</h3>
+          <ul class="info-list">
+            <li><strong>Telepon:</strong> +62 85715575603</li>
+            <li><strong>Email:</strong> adibheliansyah@gmail.com</li>
+            <li><strong>Alamat:</strong> Gunung Putri, Griya Bukit Jaya Blok B7 NO 15</li>
+            <li><strong>Negara:</strong> Indonesia</li>
+          </ul>
+        </section>
+
+        <section class="card">
+          <h3 class="section-title">Bahasa</h3>
+          <ul>
+            <li>English (menengah)</li>
+            <li>Arabic (menengah atas)</li>
+          </ul>
+        </section>
+
+        <!-- Profile paragraph -->
+        <section class="card">
+          <h3 class="section-title">Profil Singkat</h3>
+          <p>Memiliki pengalaman organisasi selama 3 tahun, kemampuan komunikasi, kepemimpinan, dan pengelolaan acara. (paragraf diringkas dari CV tanpa menambahkan informasi baru)</p>
+        </section>
+
+        <!-- Experience (timeline) -->
+        <section class="card timeline">
+          <h3 class="section-title">Pengalaman</h3>
+          <ol class="timeline-list">
+            <!-- CV menampilkan banyak entri organisasi; saya menampilkan ringkasan entri utama yang muncul -->
+            <li>
+              <span class="time">Feb 2023 – Feb 2024</span>
+              <span class="item">Bertugas sebagai bagian kebersihan dan perkebunan di Organisasi Siswa (OSIS) Pondok Pesantren Modern Fathan Mubina (menulis persis dari CV)</span>
+            </li>
+            <li>
+              <span class="time">Feb 2024 – Feb 2025</span>
+              <span class="item">Menjabat di berbagai posisi organisasi pelaksana, dekorasi, dan kepanitiaan (dirangkum dari entri pengalaman organisasi pada CV)</span>
+            </li>
+            <!-- CV berisi daftar panjang peran (ketua, panitia, dsb.). Karena CV menampilkan banyak peran spesifik, saya menyertakan catatan bahwa ada banyak posisi organisasi terdaftar. -->
+          </ol>
+          <p class="muted">Catatan: CV mencantumkan banyak posisi organisasi, penghargaan, dan peran kepanitiaan — semuanya tercatat di CV lengkap.</p>
+        </section>
+
+        <!-- Education -->
+        <section class="card timeline">
+          <h3 class="section-title">Pendidikan</h3>
+          <ol class="timeline-list">
+            <li><span class="time">2025–Sekarang</span><span class="item">Sarjana — Manajemen Pendidikan | UIN Syarif Hidayatullah</span></li>
+          </ol>
+        </section>
+      </div>
+    </section>
+
+    <!-- PROFILE 3 - cv 3 (Sinta Nurhandayani) -->
+    <section id="person3" class="profile" data-accent="rose">
+      <header class="profile-header">
+        <div class="photo-wrap">
+          <!-- Photo path required: ./foto/foto3.jpg -->
+          <img src="./foto/foto3.jpg" alt="Sinta Nurhandayani" class="photo" data-name="Sinta Nurhandayani">
+        </div>
+        <div class="profile-meta">
+          <h2 class="name">Sinta Nurhandayani</h2>
+          <div class="role">Manajemen Pendidikan</div>
+          <p class="summary">Mahasiswa Manajemen Pendidikan yang aktif dalam kepanitiaan, pengabdian masyarakat, dan berbagai kegiatan selama perkuliahan. Memiliki kemampuan komunikasi, adaptasi, dan tanggung jawab.</p>
+
+          <div class="contact-actions">
+            <a class="btn" href="mailto:sinnur4107@gmail.com">Email</a>
+            <a class="btn outline" href="tel:+6282315327613">Telepon</a>
+          </div>
+        </div>
+      </header>
+
+      <div class="profile-body">
+        <!-- Contact -->
+        <section class="card">
+          <h3 class="section-title">Kontak</h3>
+          <ul class="info-list">
+            <li><strong>Telepon:</strong> +62 823-1532-7613</li>
+            <li><strong>Email:</strong> sinnur4107@gmail.com</li>
+            <li><strong>Lokasi:</strong> Jakarta Selatan</li>
+          </ul>
+        </section>
+
+        <!-- Pendidikan -->
+        <section class="card timeline">
+          <h3 class="section-title">Pendidikan</h3>
+          <ol class="timeline-list">
+            <li><span class="time">2012–2013</span><span class="item">RA Ar-Ridho</span></li>
+            <li><span class="time">2013–2019</span><span class="item">MIN 09 Jakarta</span></li>
+            <li><span class="time">2019–2022</span><span class="item">MTsN 32 Jakarta</span></li>
+            <li><span class="time">2022–2025</span><span class="item">MAN 22 Jakarta</span></li>
+            <li><span class="time">2025–Sekarang</span><span class="item">UIN Syarif Hidayatullah</span></li>
+          </ol>
+        </section>
+
+        <!-- Profil -->
+        <section class="card">
+          <h3 class="section-title">Profil</h3>
+          <p>Mahasiswa Manajemen Pendidikan yang aktif dalam kepanitiaan, pengabdian masyarakat, dan berbagai kegiatan selama perkuliahan. Memiliki kemampuan komunikasi, adaptasi, dan tanggung jawab dalam menjalankan tugas. Berkomitmen untuk terus mengembangkan keterampilan dan menambah pengalaman melalui kegiatan dan kesempatan yang tersedia.</p>
+        </section>
+
+        <!-- Pengalaman -->
+        <section class="card">
+          <h3 class="section-title">Pengalaman</h3>
+          <ul>
+            <!-- Menampilkan entri penting yang terlihat di CV -->
+            <li>Anggota Aktif Ekstrakurikuler Saman — MTsN 32 Jakarta (2019–2020)</li>
+            <li>Anggota Aktif Ekstrakurikuler Basket — MTsN 32 Jakarta (2019–2020)</li>
+            <li>Anggota Aktif Ekstrakurikuler PMR — Bendahara — MAN 22 Jakarta Barat (2022–2024)</li>
+            <li>Berbagai peran staf pelaksana acara, donor darah, dan MC upacara di MAN 22 Jakarta Barat (2023)</li>
+            <li>Juara dan peserta kompetisi PMR di tingkat regional dan provinsi (tercantum di CV)</li>
+            <li>Staf Pelaksana Pelatikan dan Rapat Kerja HMPS Manajemen Pendidikan — Divisi PDD (2026) (tercantum di CV)</li>
+            <li>Staf Pelaksana PBAK Manajemen Pendidikan — Divisi Kesehatan (2026) (tercantum di CV)</li>
+          </ul>
+        </section>
+
+        <!-- Keterampilan (skill badges) -->
+        <section class="card">
+          <h3 class="section-title">Keterampilan</h3>
+          <div class="badges">
+            <span class="badge">Mengoperasikan Microsoft Office</span>
+            <span class="badge">Public Speaking</span>
+            <span class="badge">Event Coordination</span>
+            <span class="badge">Manajemen Waktu</span>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>Halaman profil dibuat dari tiga CV. Foto diharapkan ditempatkan di folder ./foto/ sesuai nama: foto1.jpg, foto2.jpg, foto3.jpg.</p>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
